@@ -8,8 +8,12 @@ shadow text and re-organize day and time.
 
 I just want to share my version of this clock and set up an test image of how it looks
 
+##Screenshot
+
+![Desktop Screenshot](https://github.com/AxlBasilioa/RockConkyClock/blob/master/example)
+
 ##Authors
 
-Original repo origin:
+Original Repo
 
-- [@alrayed] (https://github.com/alrayed/conky-rock)
+- [@alrayed](https://github.com/alrayed/conky-rock)

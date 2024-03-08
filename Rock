@@ -1,0 +1,54 @@
+double_buffer yes
+no_buffers yes
+text_buffer_size 2048
+alignment top_middle
+gap_x 10
+gap_y 125
+minimum_size 750 750
+maximum_width 1250
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_argb_visual yes
+own_window_argb_value 0
+
+border_inner_margin 0
+border_outer_margin 0
+
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_shade_color 112422
+
+override_utf8_locale yes
+use_xft yes
+xftfont Feena Casual:size=10
+xftalpha 1
+uppercase yes
+
+default_color D6D5D4
+own_window_colour 000000
+
+TEXT
+${font Anurati:size=75}${offset 70}${voffset 50}${color #000000}${if_match "${time %A}" == "Wednesday"}${offset 10}${endif}${if_match "${time %A}" == "Friday"}${offset 140}${else}${offset 75}${endif}${time %A}#${color yellow}
+
+${font Anurati:size=75}${offset 65}${voffset -133}${color #FFADDA}${if_match "${time %A}" == "Wednesday"}${offset -5}${endif}${if_match "${time %A}" == Friday}${offset 135}${else}${offset 75}${endif}${time %A}#${color yellow}
+
+${color #000000}${voffset -60}${offset 325}${font Chilanka Regular:size=15} ${time %B %d %Y}
+
+${color #FFADDA}${voffset -58}${offset 321}${font Chilanka Regular:size=15} ${time %B %d %Y}
+
+${color #000000}${voffset -20}${offset 395}${font Chilanka Regular:pixelsize=20}${time %I}
+
+${color #FFADDA}${voffset -60}${offset 392}${font Chilanka Regular:pixelsize=20}${time %I}
+
+${color #000000}${voffset -31}${offset 382}${font Chilanka Regular:pixelsize=20}-       -
+
+${color #FFADDA}${voffset -59}${offset 380}${font Chilanka Regular:pixelsize=20}-       -
+
+${color #000000}${voffset -29}${offset 394}${font Chilanka Regular:pixelsize=20}${time %M}
+
+${color #FFADDA}${voffset -60}${offset 391}${font Chilanka Regular:pixelsize=20}${time %M}
+

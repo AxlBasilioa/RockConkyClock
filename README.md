@@ -10,11 +10,11 @@ Hi! this is almost the same same as the original repo, just customize the "Rock"
 
 I'll use this repository to copy the same settings to my other pc, but if anyone need it, here it is. if you like it, add a star at original Repo please (read Authors)
 
-##Appendix
+## Appendix
 
 I just want to share my version of this clock and set up an test image of how it looks
 
-##Screenshot
+## Screenshot
 
 ![Desktop Screenshot](https://github.com/AxlBasilioa/RockConkyClock/blob/master/example)
 
